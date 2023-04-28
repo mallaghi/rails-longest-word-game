@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+ h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 25px;
+ }
+
+ p, form{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.container-md{
+  width: 75%;
+  margin-top: 20px;
+ }
+ .letters{
+  margin: 20px 0;
+ }
+
+ button{
+  margin-top: 20px;
+ }
+
+ .result{
+  background-color: rgba(96, 96, 96, 0.383);
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+
+ }
+
+ #user-word{
+  color: crimson;
+ }
